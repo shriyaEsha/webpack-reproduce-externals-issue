@@ -1,0 +1,24 @@
+{
+  "name": "webpack-reproduce-externals-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "3.1.1",
+    "webpack-dev-server": "^3.2.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "dependencies": {}
+}
