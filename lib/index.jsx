@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { createPortal } from 'react-dom';
 import CCEModal from './CCEModal';
 // const CCEModal = lazy(() => import('./CCEModal'));
@@ -26,7 +26,7 @@ function CCEModalPortal () {
         document.body.appendChild(portalComponent);  
     }
     return <ReactPortal wrapperId={portalId}>
-           <CCEModal />
+        <CCEModal />
         </ReactPortal>;
 }
 const e = React.createElement;
